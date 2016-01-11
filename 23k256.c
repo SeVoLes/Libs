@@ -25,7 +25,7 @@
 // 1 0 = Page mode
 // 0 1 = Sequential mode
 // 1 1 = Reserved
-int8 ext_sram_status_register_read()
+int8 ext_sram_status_register_read(void)
 {
    int8 data;
    
